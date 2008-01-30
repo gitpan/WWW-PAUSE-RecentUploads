@@ -1,0 +1,6 @@
+Revision history for Perl extension WWW::PAUSE::Recent.
+
+0.01  Sun Jan 27 23:46:06 2008
+	- original version; created by h2xs 1.23 with options
+		-A -X -c --skip-exporter -v 0.01 -n WWW::PAUSE::Recent
+

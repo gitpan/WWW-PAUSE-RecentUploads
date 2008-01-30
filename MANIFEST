@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/99-pod-coverage.t
+t/98-pod.t
+examples/get_recent.pl
+t/WWW-PAUSE-RecentUploads.t
+lib/WWW/PAUSE/RecentUploads.pm
+META.yml                                 Module meta-data (added by MakeMaker)
