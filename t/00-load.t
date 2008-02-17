@@ -1,16 +1,19 @@
-# Before `make install' is performed this script should be runnable with
-# `make test'. After `make install' it 
-# should work as `perl WWW-PAUSE-RecentUploads.t'
+#!/usr/bin/env perl
 
-#########################
+use strict;
+use warnings;
 
 use Test::More tests => 11;
+
 BEGIN {
-    use_ok('WWW::PAUSE::RecentUploads');
     use_ok('Carp');
-    use_ok('URI');
+    use_ok('LWP::UserAgent');
     use_ok('HTML::TokeParser::Simple');
-};
+	use_ok( 'WWW::PAUSE::RecentUploads' );
+}
+
+diag( "Testing WWW::PAUSE::RecentUploads $WWW::PAUSE::RecentUploads::VERSION, Perl $], $^X" );
+
 
 use WWW::PAUSE::RecentUploads;
 

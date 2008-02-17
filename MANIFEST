@@ -1,10 +1,12 @@
+Build.PL
 Changes
-Makefile.PL
 MANIFEST
 README
-t/99-pod-coverage.t
-t/98-pod.t
-examples/get_recent.pl
-t/WWW-PAUSE-RecentUploads.t
 lib/WWW/PAUSE/RecentUploads.pm
-META.yml                                 Module meta-data (added by MakeMaker)
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
+t/kwalitee.t
+examples/get_recent.pl
+Makefile.PL
+META.yml
