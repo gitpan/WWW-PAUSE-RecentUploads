@@ -3,7 +3,7 @@ package WWW::PAUSE::RecentUploads;
 use warnings;
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Carp;
 use LWP::UserAgent;
@@ -102,6 +102,7 @@ sub _parse_pause_data {
             $dist =~ s/^\s+|\s+$//g;
             $dist =~ s/
                 (
+                    \.tgz   |
                     \.tar (?: .gz | \.bz2 )? |
                     \.gz      |
                     \.bz2     |

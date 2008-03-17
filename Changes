@@ -1,5 +1,8 @@
 Revision history for WWW-PAUSE-RecentUploads
 
+0.03  Mon Mar 17 2008
+        Fixed stripping of .tgz extensions
+
 0.02  Sun Feb 17 2008
         Fixed distribution errors. No code changes.
 
